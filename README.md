@@ -1,7 +1,24 @@
-Halo!
-Selamat Datang!
-Sebelum kita mulai menulis program Python, pastikan kita menginstall beberapa library yang dibutuhkan. 
-Misalnya, kita bisa menggunakan Jinja2 untuk rendering HTML dinamis (meskipun ini opsional).
-Install Jinja2 dengan perintah:
+# Web Portfolio Generator
 
-pip install Jinja2
+Web Portfolio Generator adalah program Python yang secara otomatis menghasilkan website portfolio pribadi lengkap dengan desain responsif menggunakan **Bootstrap**, gaya **CSS**, dan interaktivitas menggunakan **JavaScript**. Program ini menggunakan template HTML yang dapat disesuaikan dengan mudah, serta mendukung berbagai elemen seperti deskripsi diri, keterampilan, dan proyek yang telah dikerjakan.
+
+## Fitur
+
+- **Desain Responsif**: Menggunakan **Bootstrap** untuk memastikan tampilan web portfolio yang baik di berbagai perangkat.
+- **Kustomisasi Mudah**: Hanya dengan mengubah data dalam program Python, pengguna dapat membuat portfolio yang sepenuhnya disesuaikan.
+- **CSS Styling**: Web yang dihasilkan dilengkapi dengan gaya dasar menggunakan CSS.
+- **Interaktivitas**: JavaScript dapat ditambahkan untuk membuat halaman lebih dinamis (misalnya, validasi form, animasi, dll).
+
+## Persyaratan Sistem
+
+- Python 3.x
+- Package `Jinja2` untuk rendering template (dapat diinstal dengan `pip`)
+- Text editor atau IDE untuk mengedit file (misalnya, Visual Studio Code, PyCharm)
+
+## Instalasi
+
+1. **Clone Repositori**
+   Clone repositori ini ke komputer Anda:
+
+   ```bash
+   git clone https://github.com/username/repository_name.git
