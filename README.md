@@ -23,4 +23,5 @@ Web Portfolio Generator adalah program Python yang secara otomatis menghasilkan 
    ```bash
    git clone https://github.com/Dwipradanaa/Web-Portfolio-Generator/
 2. **Instalasi Dependencies Install dependensi yang diperlukan dengan pip**
-   pip install -r requirements.txt
+
+    pip install -r requirements.txt
