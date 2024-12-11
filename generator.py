@@ -58,12 +58,12 @@ with open('output/index.html', 'w') as f:
 # Fungsi untuk mengirim pesan WhatsApp
 def send_whatsapp_message(to_whatsapp_number):
     # Twilio credentials (ganti dengan kredensial Anda)
-    account_sid = 'AC00bd02851f70d685a2e14695de8f93ed'  # Gantilah dengan SID akun Twilio Anda
-    auth_token = '5e52332326e41ba58e48cf35ffa16cfc'    # Gantilah dengan token otentikasi Twilio Anda
+    account_sid = 'AC00bd02851f70d685a2e14695de8f93ed'
+    auth_token = '5e52332326e41ba58e48cf35ffa16cfc'
     client = Client(account_sid, auth_token)
 
     # Nomor WhatsApp pengirim
-    from_whatsapp_number = '+13203616474'  # Nomor WhatsApp Twilio Anda
+    from_whatsapp_number = '+13203616474'
 
     # Mengirim pesan WhatsApp ke nomor yang ditentukan
     message = client.messages.create(
