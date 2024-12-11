@@ -21,4 +21,4 @@ Web Portfolio Generator adalah program Python yang secara otomatis menghasilkan 
    Clone repositori ini ke komputer Anda:
 
    ```bash
-   git clone https://github.com/username/repository_name.git
+   git clone https://github.com/Dwipradanaa/Web-Portfolio-Generator/
