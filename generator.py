@@ -9,10 +9,10 @@ def get_input(prompt, default_value=""):
 
 # Mengumpulkan data dari pengguna
 print("Selamat datang di Web Portfolio Generator!")
-name = get_input("Masukkan nama Anda", "John Doe")
+name = get_input("Masukkan nama Anda", "dwipradanaa")
 profession = get_input("Masukkan profesi Anda", "Software Developer")
 about = get_input("Tuliskan deskripsi tentang diri Anda", "A passionate software developer with experience in building web applications.")
-email = get_input("Masukkan alamat email Anda", "johndoe@example.com")
+email = get_input("Masukkan alamat email Anda", "dwipradanaa@tekajeh.com")
 
 # Mengumpulkan data keterampilan
 skills = []
